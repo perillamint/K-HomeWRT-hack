@@ -1,0 +1,37 @@
+\lstdefinestyle{diff}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  xleftmargin=\parindent,
+  showstringspaces=false,
+  % Diffstart
+  morecomment=[f][\color{gray}]{@@},
+  % Diffincl
+  morecomment=[f][\color{Green}]{+},
+  % Diffrem
+  morecomment=[f][\color{Red}]{-},
+  basicstyle=\footnotesize\ttfamily,
+}
+
+\lstdefinestyle{customtxt}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  xleftmargin=\parindent,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+}
+
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
