@@ -151,5 +151,5 @@ int main(int argc, char *argv[])
 
 void reaper(int sig)
 {
-    while (waitpid(-1, 0, WNOHANG) >= 0);
+  while (waitpid(-1, 0, WNOHANG) >= 0);
 }
